@@ -1,0 +1,105 @@
+@font-face {
+    font-family: MidnightMemories;
+    src: url("KGMidnightMemories.ttf");
+  }
+body {
+    text-align: center;
+    scroll-behavior: smooth;
+    border-style: double;
+    border-radius: 18px;
+}
+h1 {
+    padding-top: 30px;
+    font-family: MidnightMemories;
+    font-size: 50px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer; 
+    margin-left: 30px;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(41, 29, 13);
+}
+img {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 30%;
+    max-height: 10%;
+}
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
+ #sendbutton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-radius: 5px;
+    border-style: double;
+    background-color: #d0f1ef;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+}
+#themebutton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-radius: 5px;
+    border-style: double;
+    background-color: #d0f1ef;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    cursor: pointer;
+}
+#Defaultbutton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-radius: 5px;
+    border-style: double;
+    background-color: #d0f1ef;
+    width: auto;
+    height: auto;
+    z-index: 9;
+    visibility: hidden;
+    float: top;
+    float: right;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#Menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    margin-top: 0px;
+    font-size: large;
+    text-decoration: none !important;
+}
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none !important;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.links:hover {
+    font-size: x-large;
+    text-decoration: underline double;
+}     
