@@ -78,7 +78,7 @@ function theme()
 function backtheme()
 {
     document.body.style.backgroundImage = "url('wp2481150.png')";
-    document.getElementById("mainlabel").style.fontFamily= "'Courier New', Courier, monospace";
+    document.getElementById("mainlabel").style.fontFamily= "MidnightMemories";
     document.getElementById("mainlabel").style.color= "black";
     document.getElementById("para").style.color= "black";
     document.getElementById("para").style.fontVariant= "none";
